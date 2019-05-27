@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+management:
+  endpoints:
+    web:
+      base-path: /internal
+
+open-api:
+  baseUrl: http://api.openweathermap.org/data/2.5/
+  apiKey: a7dd2cb164e9d36fd88132349b82d878
